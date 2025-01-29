@@ -1,0 +1,106 @@
+*{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+body {
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden; 
+    background-color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden; 
+    padding: 0 15px;
+}
+/**********************************************/
+/***************************************************/
+/***************************************************/
+.header__menu{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu a{
+    color: #fff;
+}
+b{
+    color: #fff;
+}
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/***************************************************/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 100%; 
+    max-width: 400px; 
+}
+.footer__menu{
+    height: 50px;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #00ff51b3;
+    backdrop-filter: blur(100px);
+    color: #fff;
+    z-index: 100;
+}
+.footer__menu li a{
+    color: #fff;
+    transition: transform 1000ms;
+}
+.footer__menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__menu li i{
+    transition: transform 1000ms;
+}
+.active i{
+    transform: translateY(-20%) rotateZ(360deg) rotateY(360deg);
+    transition: all 2s;
+}
+.add-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #00ff51b3;
+}
+.story{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+
+/****************************************************************************/

@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(84, 87, 91);
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    font-family: "Poppins",sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5{
+    line-height: 0;
+}
+/************************************/
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 220px;
+    padding: 50px 20px;
+    border-radius: 14px;
+    background: linear-gradient(rgba(255, 255, 255, 0.566),rgba(0, 0, 0, 0.172)),url("../images/rushan-bahor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 50px rgba(255, 255, 255, 0.315);
+}
+form input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(212, 209, 209);
+    border-radius: 6px;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+}
+form label{
+    line-height: 0;
+}
+form h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.submit-btn{
+    width: 110px;
+    height: 30px;
+    background-color: black;
+    color: rgb(212, 209, 209);
+    margin: 10px auto 0px auto;
+    transition: background-color 200ms;
+}
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.62);
+}
