@@ -3,7 +3,7 @@ body{
     margin: 0;
     font-family: "Poppins",sans-serif;
     overflow-x: hidden;
-    background-color: rgb(84, 87, 91);
+    background-color: #443627;
 }
 .container{
     max-width: 400px;
@@ -35,7 +35,7 @@ form{
     width: 220px;
     padding: 50px 20px;
     border-radius: 14px;
-    background: linear-gradient(rgba(255, 255, 255, 0.566),rgba(0, 0, 0, 0.172)),url("../images/rushan-bahor.jpeg");
+    background: linear-gradient(rgba(255, 255, 255, 0.566),#D98324),url("../images/rushan-bahor.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 50px rgba(255, 255, 255, 0.315);
